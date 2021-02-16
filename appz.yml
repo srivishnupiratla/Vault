@@ -11,7 +11,7 @@ build:
     image_template: vault-1.2
 
 deploy:
-    context: srivishnupiratla/DEV
+    context: srivishnupiratla@gmail.com/DEV
     type: statefulset
     replicas: 1
     port:
@@ -29,6 +29,6 @@ volumes:
     size: 5Gi
 
 properties:
-    revision: 25
+    revision: 26
     ENABLE_AUTO_PASSWORD: True
     
